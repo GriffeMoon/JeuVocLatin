@@ -31,13 +31,13 @@ Quant à la structure des niveaux, je me suis basée sur le livre de Vocabulaire
 
 De ce fait, le prologue en début de jeu est unavant d'accéder au mode libre de révisions (scène Bibliothèque),
 
-# Code & Images (pixil et piskel, animation)
-
 # Ce qui n'a pas pu ou pourrait être fait : BUG, ENHANCEMENTS
 Pour des questions de droits d'auteurs sur les traductions issues des Belles-Lettres, il n'aurait pas été possible de les intégrer dans ce travail, mais il aurait pu être intéressant de proposer des textes latin en jeu et de les traduire. De plus, par manque de temps sur la fin du travail, et afin d'avoir un projet avec le moins de bug possible, il a été préféré de peaufiner au mieux le début du projet que de faire quelque chose de trop grand, et théoriquement complet, mais aux risques de plusieurs bugs. De ce fait, seul le mode libre (la bibliothèque) et le début du scénario est fonctionnel. La scène "Hub", cependant, est incomplète. 
 De plus, l'idée d'un gameplay où il faudrait écrire les mots a été abandonné car cela demanderait de réécrire les fichiers .txt de sorte qu'il n'y ait pas de problème de parenthèse ou autres symboles spéciaux, tout comme - bien que plus réalisable - le fait qu'un seul mot peut avoir plusieurs traductions.
 Qui plus est, il y a un bug spécifique où, lorsque l'on sauvegarde dans la scène ("ResultScene", ({win}), le jeu plante à cause de la variable "win" qui n'est pas pris spécifiquement en compte dans la fonction de sauvegarde. Il est également arrivé en cours de tests, que des images ne s'affichent pas de suite, mais cela arrive que dans des circonstances spécifiques. Par exemple, lorsque l'on fait exprès d'aller vite : comme entrer dans la scène "Hub" et faire en sorte d'entrer dans la bibliothèque pendant le temps de chargement.
 À cela s'ajoute également le code pour créer des paquets de vocabulaires personnalisés dont je n'ai pas réussi à le transformer sous la forme d'un code compatible avec kaplay.
+Parmi les autres améliorations possibles, tout comme le scénario, il aurait été intéressant de
+Seul le phare 
 
 # 2 choix
 À partir de la fin du prologue, le joueur peut décider soit de continuer - théoriquement - l'histoire et de suivre le chemin scripté, soit d'aller à la bibliothèque afin d'augmenter son score ou de tout simplement réviser les chapitres qu'il souhaite. Plus le score est haut, plus il peut réclamer des bonus auprès du marchand dans la ville (pas codé) : comme des accessoires (il existe en commentaire le code du chapeau dans la scène Bibliothèque) ou bien des items comme une garantie de 100% de réussite pour la barre spéciale (présente uniquement dans les scènes en lien avec le vocabulaire). Le score ferait office ici d'une sorte de monnaie en jeu, et il ne serait pas possible de cumuler à la suite plusieurs points au score en réussissant plusieurs fois la même scène de vocabulaire/déclinaion (codé).
