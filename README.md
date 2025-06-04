@@ -64,16 +64,15 @@ Forest Lullaby: https://pixabay.com/fr/music/groupe-acoustique-forest-lullaby-11
 Inspiring Emotional Uplifting Piano: https://pixabay.com/fr/music/classique-moderne-inspiring-emotional-uplifting-piano-112623/
 Waiting Music: https://pixabay.com/music/bossa-nova-waiting-music-116216/
 
--Good_B_Music
+-Good_B_Music:
 Endless Beauty (Main): https://pixabay.com/music/beautiful-plays-endless-beauty-main-11545/
 
--Clavier_Music
+-Clavier_Music:
 Sad Waltz (Piano): https://pixabay.com/fr/music/classique-moderne-sad-waltz-piano-216330/
 Soft Background Piano: https://pixabay.com/fr/music/classique-moderne-soft-background-piano-285589/
 
+-Sonothèque:
+Vagues et Sternes: https://lasonotheque.org/mer-vagues-moyennes-et-mouettes-s0267.html
+Chant d'un insecte 1: https://lasonotheque.org/chant-insecte-s1052.html
+
 Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit (sans usage commerciale), il faut juste faire mention du lien github ou du pseudonyme.
-
-
-
-
-#log.md --> step by step du projets chaque semaine
