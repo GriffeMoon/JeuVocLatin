@@ -4,6 +4,7 @@
 Ce travail a été produit dans le cadre d'un projet informatique. Le but de ce projet est de produire un jeu vidéo en 2D afin de réviser et d'apprendre le latin - en particulier les déclinaisons et le vocabulaire. Sans pour autant être un serious games, l'un des buts initiaux, mais qui a dû être avorté par manque de temps, était de faire également du jeu un
 
 
+
 Mais il aurait fallu faire de plus amples recherches historiques et archéologiques ainsi que de fixer clairement le cadre temporel et spatial.
 
 Pour ce qui est de la procédure d'installation, il suffit de télécharger le dossier "Rendu" pour avoir tout le contenu du jeu, Ce dossier contient un fichier html ainsi que trois fichiers JS nécessaires à son fonctionnement: un fichier kaplay.js, mainloquace.js et RENDU.js. Le fichier kaplay.js condense l'usage pouvant être fait de la librairie kaplay, tandis que le mainloquace est issu d'un plug-in - encore en développement - pouvant fonctionner sous kaplay. (Les crédits se trouvent en fin du README.)
@@ -36,8 +37,7 @@ Pour des questions de droits d'auteurs sur les traductions issues des Belles-Let
 De plus, l'idée d'un gameplay où il faudrait écrire les mots a été abandonné car cela demanderait de réécrire les fichiers .txt de sorte qu'il n'y ait pas de problème de parenthèse ou autres symboles spéciaux, tout comme - bien que plus réalisable - le fait qu'un seul mot peut avoir plusieurs traductions.
 Qui plus est, il y a un bug spécifique où, lorsque l'on sauvegarde dans la scène ("ResultScene", ({win}), le jeu plante à cause de la variable "win" qui n'est pas pris spécifiquement en compte dans la fonction de sauvegarde. Il est également arrivé en cours de tests, que des images ne s'affichent pas de suite, mais cela arrive que dans des circonstances spécifiques. Par exemple, lorsque l'on fait exprès d'aller vite : comme entrer dans la scène "Hub" et faire en sorte d'entrer dans la bibliothèque pendant le temps de chargement.
 À cela s'ajoute également le code pour créer des paquets de vocabulaires personnalisés dont je n'ai pas réussi à le transformer sous la forme d'un code compatible avec kaplay.
-Parmi les autres améliorations possibles, tout comme le scénario, il aurait été intéressant de faire en sorte que l'ensemble des assets images produits pour 
-Seul le phare 
+Parmi les autres améliorations possibles, tout comme le scénario, il aurait été intéressant de faire en sorte que l'ensemble des assets images produits soit cohérent. Sans forcément faire de lien temportel ou de lieu, l'image du phare s'inspire de la tour d'Hercule en Espagne ainsi que la bibliothèque de Celsus qui - comme son nom l'indique - amène à la bibliothèque dont l'intérieur ne correspond pas du tout à son apparence extérieur.
 
 # 2 choix
 À partir de la fin du prologue, le joueur peut décider soit de continuer - théoriquement - l'histoire et de suivre le chemin scripté, soit d'aller à la bibliothèque afin d'augmenter son score ou de tout simplement réviser les chapitres qu'il souhaite. Plus le score est haut, plus il peut réclamer des bonus auprès du marchand dans la ville (pas codé) : comme des accessoires (il existe en commentaire le code du chapeau dans la scène Bibliothèque) ou bien des items comme une garantie de 100% de réussite pour la barre spéciale (présente uniquement dans les scènes en lien avec le vocabulaire). Le score ferait office ici d'une sorte de monnaie en jeu, et il ne serait pas possible de cumuler à la suite plusieurs points au score en réussissant plusieurs fois la même scène de vocabulaire/déclinaion (codé).
@@ -45,9 +45,13 @@ Puisqu'il a été brièvement mentionné le cas de la barre spéciale, c'est l'u
 
 Pour ce qui est de l'histoire, il n'y a que le début qui a été codé, mais c'est surtout dû a une vision trop large. Premièrement dû à la fois à la gestion du rythme : il ne faut pas non plus mettre à la suite tous les chapitres de vocabulaires au risque d'être indigeste, de même qu'il faut étaler les indices. Deuxièmement, le nombre conséquent de vocabulaire entre les chapitres 1-69 (un peu plus de 1000 mots) ne permet pas de les mettre tous à la suite sans quelques rappels - comme c'est le cas, par exemple, avec la scène "DeclinaisonTemplum&Rosa" qui, en plus d'ajouter une nouvelle déclinaison, rappelle deux déclinaisons apprises précédemment. Il y a eu la question un moment donné de faire un gimmick à la Professor Layton où le joueur intéragit avec certains personnages et obtient des informations après avoir réussi à passer le vocabulaire. Cependant, il faut voir le jeu comme un complément pour des révisions de vocabulaires tout en ajoutant un aspect ludique en plus. Quant à ceux qui réessayent sans apprendre le vocabulaire, on pourrait presque parler de "die and retry" : au lieu de patterns, il s'agit de vocabulaire.
 
-# Crédits (PASFINI)
+# Contexte de développement
 
-Plug-In Loquace: https://github.com/loiccattani/kaplay-loquace
+Ce projet est supervisé par Isaac Pante dans le cadre d'un travail en SLI (Lettres, UNIL).
+
+# Crédits
+
+Plug-In Loquace codé par Loic Cattani : https://github.com/loiccattani/kaplay-loquace
 
 Musiques & Sons : À l'exception du son en fin de prologue, l'ensemble des musiques et compositeurs sont crédités ici:
 
