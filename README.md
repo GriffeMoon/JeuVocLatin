@@ -75,4 +75,6 @@ Soft Background Piano: https://pixabay.com/fr/music/classique-moderne-soft-backg
 Vagues et Sternes: https://lasonotheque.org/mer-vagues-moyennes-et-mouettes-s0267.html
 Chant d'un insecte 1: https://lasonotheque.org/chant-insecte-s1052.html
 
-Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit (sans usage commerciale), il faut juste faire mention du lien github ou du pseudonyme.
+-Mixkit: Bonus earned in video game : https://mixkit.co/free-sound-effects/game/
+
+Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit (mais sans usage commercial). Il faut juste faire mention du lien github ou du pseudonyme.
