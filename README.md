@@ -77,4 +77,4 @@ Chant d'un insecte 1: https://lasonotheque.org/chant-insecte-s1052.html
 
 -Mixkit: Bonus earned in video game : https://mixkit.co/free-sound-effects/game/
 
-Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit (mais sans usage commercial). Il faut juste faire mention du lien github ou du pseudonyme.
+Images: Toutes les images ont été produites par moi-même via Piskel ou Pixil. Tout usage est libre de droit (mais sans usage commercial). Il faut juste faire mention du lien github ou du pseudonyme.
