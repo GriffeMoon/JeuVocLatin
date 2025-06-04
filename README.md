@@ -39,21 +39,19 @@ De plus, l'idée d'un gameplay où il faudrait écrire les mots a été abandonn
 Qui plus est, il y a un bug spécifique où, lorsque l'on sauvegarde dans la scène ("ResultScene", ({win}), le jeu plante à cause de la variable "win" qui n'est pas pris spécifiquement en compte dans la fonction de sauvegarde. Il est également arrivé en cours de tests, que des images ne s'affichent pas de suite, mais cela arrive que dans des circonstances spécifiques. Par exemple, lorsque l'on fait exprès d'aller vite : comme entrer dans la scène "Hub" et faire en sorte d'entrer dans la bibliothèque pendant le temps de chargement.
 À cela s'ajoute également le code pour créer des paquets de vocabulaires personnalisés dont je n'ai pas réussi à le transformer sous la forme d'un code compatible avec kaplay.
 
-# 2 choix (pas fini)
-À partir de la fin du prologue, le joueur peut décider soit de continuer - théoriquement - l'histoire et de suivre le chemin scripté, soit d'aller à la bibliothèque afin d'augmenter son score. Plus le score est haut, plus il peut réclamer des bonus auprès du marchand dans la ville (pas codé). Le score ferait office ici d'une sorte de monnaie en jeu, et il ne serait pas possible de cumuler à la suite plusieurs points au score en réuissisant plusieurs fois la même scène de vocabulaire/déclinaion (codé). 
-Pour ce qui est de l'histoire, il n'y a que le début qui a été codé, mais c'est surtout dû a une vision trop large. Premièrement dû à la fois à la gestion du rythme : il ne faut pas non plus mettre à la suite tous les chapitres de vocabulaires au risque d'être indigeste. De même, il
+# 2 choix
+À partir de la fin du prologue, le joueur peut décider soit de continuer - théoriquement - l'histoire et de suivre le chemin scripté, soit d'aller à la bibliothèque afin d'augmenter son score ou de tout simplement réviser les chapitres qu'il souhaite. Plus le score est haut, plus il peut réclamer des bonus auprès du marchand dans la ville (pas codé) : comme des accessoires (il existe en commentaire le code du chapeau dans la scène Bibliothèque) ou bien des items comme une garantie de 100% de réussite pour la barre spéciale (présente uniquement dans les scènes en lien avec le vocabulaire). Le score ferait office ici d'une sorte de monnaie en jeu, et il ne serait pas possible de cumuler à la suite plusieurs points au score en réussissant plusieurs fois la même scène de vocabulaire/déclinaion (codé).
+Puisqu'il a été brièvement mentionné le cas de la barre spéciale, c'est l'un des rares éléments entre-guillemet moins conventionnel qui a été ajouté dans la révision du vocabulaire. Après dix bonnes réponses, le joueur peut l'utiliser afin d'avoir soit un bienfait (9 chance sur 10) ou une malédiction (1 chance sur 10). Un bienfait correspond soit à un soin (le joueur a toujours 6 pv de base), soit désigner la bonne réponse parmi les trois choix. Cela pourrait être vu comme un choix particulier pour le dernier cas puisque le but est de réviser, mais puisque cela n'arrive que toutes les dix bonnes réponses, ce n'est que ponctuel. Quant aux malédictions, ils pénalisent le joueur en lui faisant perdre de la vie (0.5 pv sur 6) soignent un certain montant la vie du boss.
 
-le faire sans indices - et au nombre conséquent de vocabulaire à apprendre. Il y a eu la question de faire un gimmick à la Professor Layton où le joueur intéragit avec certains personnages et obtient des informations après avoir réussi à passer le vocabulaire. Cependant, il faut voir le jeu comme un complément pour des révisions de vocabulaires tout en ajoutant un aspect ludique en plus. Quant à ceux qui réessayent sans apprendre le vocabulaire, on pourrait presque parler de "die and retry". Au lieu de patterns, il s'agit du vocabulaire.
+Pour ce qui est de l'histoire, il n'y a que le début qui a été codé, mais c'est surtout dû a une vision trop large. Premièrement dû à la fois à la gestion du rythme : il ne faut pas non plus mettre à la suite tous les chapitres de vocabulaires au risque d'être indigeste, de même qu'il faut étaler les indices. Deuxièmement, le nombre conséquent de vocabulaire entre les chapitres 1-69 (un peu plus de 1000 mots) ne permet pas de les mettre tous à la suite sans quelques rappels - comme c'est le cas, par exemple, avec la scène "DeclinaisonTemplum&Rosa" qui, en plus d'ajouter une nouvelle déclinaison, rappelle deux déclinaisons apprises précédemment. Il y a eu la question un moment donné de faire un gimmick à la Professor Layton où le joueur intéragit avec certains personnages et obtient des informations après avoir réussi à passer le vocabulaire. Cependant, il faut voir le jeu comme un complément pour des révisions de vocabulaires tout en ajoutant un aspect ludique en plus. Quant à ceux qui réessayent sans apprendre le vocabulaire, on pourrait presque parler de "die and retry" : au lieu de patterns, il s'agit de vocabulaire.
 
-(lieu pour voir vocs)
-
-# Crédits
+# Crédits (PASFINI)
 
 Plug-In Loquace: https://github.com/loiccattani/kaplay-loquace
 
 Sons: 
 
-Images: Toutes les images ont été produites par . Tout usage est libre de droit s'il y a mention du lien github ou du pseudonyme.
+Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit s'il y a mention du lien github ou du pseudonyme.
 
 
 
