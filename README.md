@@ -51,7 +51,7 @@ Plug-In Loquace: https://github.com/loiccattani/kaplay-loquace
 
 Sons: 
 
-Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit s'il y a mention du lien github ou du pseudonyme.
+Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit, il faut juste faire mention du lien github ou du pseudonyme.
 
 
 
