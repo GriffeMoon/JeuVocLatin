@@ -36,7 +36,7 @@ Pour des questions de droits d'auteurs sur les traductions issues des Belles-Let
 De plus, l'idée d'un gameplay où il faudrait écrire les mots a été abandonné car cela demanderait de réécrire les fichiers .txt de sorte qu'il n'y ait pas de problème de parenthèse ou autres symboles spéciaux, tout comme - bien que plus réalisable - le fait qu'un seul mot peut avoir plusieurs traductions.
 Qui plus est, il y a un bug spécifique où, lorsque l'on sauvegarde dans la scène ("ResultScene", ({win}), le jeu plante à cause de la variable "win" qui n'est pas pris spécifiquement en compte dans la fonction de sauvegarde. Il est également arrivé en cours de tests, que des images ne s'affichent pas de suite, mais cela arrive que dans des circonstances spécifiques. Par exemple, lorsque l'on fait exprès d'aller vite : comme entrer dans la scène "Hub" et faire en sorte d'entrer dans la bibliothèque pendant le temps de chargement.
 À cela s'ajoute également le code pour créer des paquets de vocabulaires personnalisés dont je n'ai pas réussi à le transformer sous la forme d'un code compatible avec kaplay.
-Parmi les autres améliorations possibles, tout comme le scénario, il aurait été intéressant de
+Parmi les autres améliorations possibles, tout comme le scénario, il aurait été intéressant de faire en sorte que l'ensemble des assets images produits pour 
 Seul le phare 
 
 # 2 choix
@@ -49,9 +49,29 @@ Pour ce qui est de l'histoire, il n'y a que le début qui a été codé, mais c'
 
 Plug-In Loquace: https://github.com/loiccattani/kaplay-loquace
 
-Sons: 
+Musiques & Sons : À l'exception du son en fin de prologue, l'ensemble des musiques et compositeurs sont crédités ici:
 
-Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit, il faut juste faire mention du lien github ou du pseudonyme.
+-DeusLower:
+Atmosphere mystic fantasy orchestral music: https://pixabay.com/fr/music/mystere-atmosphere-mystic-fantasy-orchestral-music-335263/
+
+-Grand_Project:
+Calm Waves (Soft Piano): https://pixabay.com/fr/music/classique-moderne-calm-waves-soft-piano-314968/
+Relaxing Piano: https://pixabay.com/fr/music/classique-moderne-relaxing-piano-310597/
+
+-music_for_video: 
+Elevator Music bossa nova background music ( Version 60s) : https://pixabay.com/music/elevator-music-elevator-music-bossa-nova-background-music-version-60s-10900/
+Forest Lullaby: https://pixabay.com/fr/music/groupe-acoustique-forest-lullaby-110624/
+Inspiring Emotional Uplifting Piano: https://pixabay.com/fr/music/classique-moderne-inspiring-emotional-uplifting-piano-112623/
+Waiting Music: https://pixabay.com/music/bossa-nova-waiting-music-116216/
+
+-Good_B_Music
+Endless Beauty (Main): https://pixabay.com/music/beautiful-plays-endless-beauty-main-11545/
+
+-Clavier_Music
+Sad Waltz (Piano): https://pixabay.com/fr/music/classique-moderne-sad-waltz-piano-216330/
+Soft Background Piano: https://pixabay.com/fr/music/classique-moderne-soft-background-piano-285589/
+
+Images: Toutes les images ont été produites par moi-même. Tout usage est libre de droit (sans usage commerciale), il faut juste faire mention du lien github ou du pseudonyme.
 
 
 
