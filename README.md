@@ -1,27 +1,16 @@
 ## Jeu de Vocabulaire Latin
 
 # Objectifs du Projet
-Ce travail a été produit dans le cadre d'un projet informatique. Le but de ce projet est de produire un jeu vidéo en 2D afin de réviser et d'apprendre le latin - en particulier les déclinaisons et le vocabulaire. Sans pour autant être un serious games, l'un des buts initiaux, mais qui a dû être avorté par manque de temps, était de faire également du jeu un
+Ce travail a été produit dans le cadre d'un projet informatique. Le but de ce projet est de produire un jeu vidéo en 2D afin de réviser et d'apprendre le latin - en particulier les déclinaisons et le vocabulaire. Sans pour autant être un serious games, l'un des buts initiaux, mais qui a dû être avorté par manque de temps, était de faire également du jeu une manière d'explorer quelques anecdotes historiques en jeu. Mais il aurait fallu faire de plus amples recherches historiques et archéologiques ainsi que de fixer clairement le cadre temporel et spatial.
 
-
-
-Mais il aurait fallu faire de plus amples recherches historiques et archéologiques ainsi que de fixer clairement le cadre temporel et spatial.
-
-Pour ce qui est de la procédure d'installation, il suffit de télécharger le dossier "Rendu" pour avoir tout le contenu du jeu, Ce dossier contient un fichier html ainsi que trois fichiers JS nécessaires à son fonctionnement: un fichier kaplay.js, mainloquace.js et RENDU.js. Le fichier kaplay.js condense l'usage pouvant être fait de la librairie kaplay, tandis que le mainloquace est issu d'un plug-in - encore en développement - pouvant fonctionner sous kaplay. (Les crédits se trouvent en fin du README.)
+Pour ce qui est de la procédure d'installation, il suffit de télécharger le dossier "Rendu" pour avoir tout le contenu du jeu, Ce dossier contient un fichier html ainsi que trois fichiers JS nécessaires à son fonctionnement: un fichier kaplay.js, mainloquace.js et RENDU.js. Le fichier kaplay.js condense l'usage pouvant être fait de la librairie kaplay, tandis que le mainloquace est issu d'un plug-in - encore en développement - pouvant fonctionner sous kaplay. (Les crédits se trouvent en fin du README.) Si tout le dossier est intouché, le tout peut être joué localement sur l'ordinateur en créant un serveur local (via Visual Studio Code par exemple).
 
 <img width="765" alt="Capture d’écran 2025-06-04 à 09 04 21" src="https://github.com/user-attachments/assets/d0c0cf70-94b1-4e61-802f-8dedafcb4ec7" />
 
 # Scénario (PASFINI)
-Comme dit précédemment, 
-Bien que l'idée de départ était de faire un jeu s'inspirant d'une période temporelle et un lieu fixe (soit la ville de Tomis qui se trouve vers la Mer Noir), 
-Il aurait fallu consacrer du temps afin de faire les recherches nécessaires au niveau de la documentation archéologique et historique.
-De ce fait, l'histoire est plus un bonus qu
+Comme dit précédemment, bien que l'idée de départ était de faire un jeu s'inspirant d'une période temporelle et un lieu fixe, il aurait fallu consacrer du temps afin de faire les recherches nécessaires au niveau de la documentation archéologique et historique. De ce fait, l'histoire est plus un prétexte spécieux qu'informatif.
 
-le bref scénario présenté dans le jeu n'est qu'un prétexte est met indirectement en forme ce que cela pourrait être s'il y avait les 8 niveaux prévus. En comptant le prologue, cela fait 1 sur 8. Le but du jeu est de l'utiliser comme outil d'apprentissage, et le reste est un peu une forme de bonus.
-
-
-
-
+Le bref début de scénario présenté dans le jeu n'est qu'un prétexte est met indirectement en forme ce que cela pourrait être s'il y avait les 8 niveaux prévus. En comptant le prologue, cela fait 1 niveau sur 9. Le but du jeu est de l'utiliser indirectement comme outil d'apprentissage, et le reste est un peu une forme de bonus.
 
 # 1ères étapes: documentation
 
@@ -37,7 +26,7 @@ Pour des questions de droits d'auteurs sur les traductions issues des Belles-Let
 De plus, l'idée d'un gameplay où il faudrait écrire les mots a été abandonné car cela demanderait de réécrire les fichiers .txt de sorte qu'il n'y ait pas de problème de parenthèse ou autres symboles spéciaux, tout comme - bien que plus réalisable - le fait qu'un seul mot peut avoir plusieurs traductions.
 Qui plus est, il y a un bug spécifique où, lorsque l'on sauvegarde dans la scène ("ResultScene", ({win}), le jeu plante à cause de la variable "win" qui n'est pas pris spécifiquement en compte dans la fonction de sauvegarde. Il est également arrivé en cours de tests, que des images ne s'affichent pas de suite, mais cela arrive que dans des circonstances spécifiques. Par exemple, lorsque l'on fait exprès d'aller vite : comme entrer dans la scène "Hub" et faire en sorte d'entrer dans la bibliothèque pendant le temps de chargement.
 À cela s'ajoute également le code pour créer des paquets de vocabulaires personnalisés dont je n'ai pas réussi à le transformer sous la forme d'un code compatible avec kaplay.
-Parmi les autres améliorations possibles, tout comme le scénario, il aurait été intéressant de faire en sorte que l'ensemble des assets images produits soit cohérent. Sans forcément faire de lien temportel ou de lieu, l'image du phare s'inspire de la tour d'Hercule en Espagne ainsi que la bibliothèque de Celsus qui - comme son nom l'indique - amène à la bibliothèque dont l'intérieur ne correspond pas du tout à son apparence extérieur.
+Parmi les autres améliorations possibles, tout comme le scénario, il aurait été intéressant de faire en sorte que l'ensemble des assets images produits soit cohérent. Sans forcément faire de lien temportel ou de lieu, l'image du phare s'inspire de la tour d'Hercule (en Espagne) ainsi que la bibliothèque de Celsus (en actuel Turquie) qui - comme son nom l'indique - amène à la bibliothèque dont l'intérieur ne correspond pas du tout à son apparence extérieur.
 
 ![Bibliothèque](https://github.com/user-attachments/assets/83b4825c-849c-46fa-863e-50081a6fbf30)
 ![Phareavecfeu](https://github.com/user-attachments/assets/6b961338-986a-44fe-933e-ecebf685bafa)
