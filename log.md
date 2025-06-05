@@ -1,2 +1,2 @@
-Les premières semaines du semestre était consacré à la mise en place des idées principales, c'est-à-dire, coder les scènes de gameplays, quelques scènes, et créer les assets. Au début du semestre, l'avancée était plus sporadique.
-C'est surtout à partir de la mi-avril que le code a été avancée et dont, jusqu'à mai, c'était une succession de corrections de bug et de complétion du code afin d'ajouter des nouveaux éléments.
+Les premières semaines du semestre étaient consacrées à la mise en place des idées principales, c'est-à-dire, au codage des scènes de jeu et à la craétion de quelques scènes. et créer les assets. Au début du semestre, l'avancée du travail était plus sporadique.
+C'est surtout à partir de la mi-avril que le code a progressé, et ce jusqu'en mai, avec une succession de corrections de bug et de complétion du code afin d'ajouter des nouveaux éléments.
