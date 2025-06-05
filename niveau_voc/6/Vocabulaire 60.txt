@@ -1,0 +1,18 @@
+abesse, sum, afui	être absent; être éloigné (de: génér. ab + abl.)
+abire, eo, ii, itum	partir/s'en aller; quitter, s'éloigner de (ab ou ex + abl.)
+adesse, sum, adfui	être présent; assister (+ dat.)/être près de (+ dat.)
+adire, eo, ii, itum	aller vers; aller trouver (qqn: + acc.)/aborder
+aditus, us, m.	l'accès, l'abord
+ambulare, o, rég.	se promener/marcher
+deesse, sum, fui	manquer, faire défaut à (+ dat.)/ abandonner (+ dat.)
+deficere, io, feci, fectum	faire défaut, manquer (à qqn: + acc.)/abandonner le parti de qqn (ab + abl.); s'éclipser (astre)
+exire, eo, ii, itum	sortir
+exitium, ii, n.	la destruction, la perte, la ruine
+exitus, us, m.	la sortie; la fin
+imminere, eo	être tout proche; menacer (+ dat.)/être suspendu au-dessus de
+inire, eo, ii, itum	entrer dans; entreprendre
+ire, eo, i(v)i, itum	aller, marcher
+manere, eo, mansi, mansum	rester, demeurer/attendre
+redire, eo, ii, itum	revenir
+subire, eo, ii, itum	aller sous; s'approcher de (+ acc.); se charger de (+ acc.)/pénétrer dans (+acc.); supporter; se présenter à l'esprit (idée)
+transire, eo, ii, itum	traverser/franchir; passer (d'un point à un autre)

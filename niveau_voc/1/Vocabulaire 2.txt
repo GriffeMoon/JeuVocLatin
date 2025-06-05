@@ -1,0 +1,23 @@
+ab (a) + abl.	de (éloignement ou origine)/loin de; de, par (agent du passif); depuis
+cum + abl.	avec (en compagnie de)
+sine + abl.	sans
+de + abl.	du haut de; au sujet de/de (éloignement ou origine); au cours de
+ex (e) + abl.	de (éloignement ou origine), hors de; par suite de, d'après; depuis
+in + acc.	en, dans, sur (avec changement de lieu); pour (but); envers, contre
+in + abl.	en, dans, sur (sans changement de lieu)/quand il s'agit de (génér. avec le gérondif)
+ante + acc.	avant; devant
+post	après; (sens local) derrière
+post + acc.	après; derrière
+ad + acc.	vers, près de; jusqu'à; en vue de, pour
+apud + acc.	chez; près de (sans changement de lieu)/devant (qqn)
+inter + acc.	parmi, entre; dans l'espace de (temps)
+per + acc.	à travers; pendant; par l'intermédiaire de
+jam non	ne... plus
+non... quidem	ne... même pas, ne... pas non plus
+trans + acc.	au-delà de (lieu)
+cum... tum	non seulement... mais surtout
+modo...modo	tantôt... tantôt
+nunc... nunc	tantôt...tantôt
+ut?	comment?
+ut!	comme!
+ad hoc accedit quod...	à cela s'ajoute le fait que...

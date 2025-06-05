@@ -1,0 +1,3 @@
+flumen, minis, n.	le fleuve, la rivière
+foedus, eris, n.	le traité
+test    cequiestcenséêtredulatin

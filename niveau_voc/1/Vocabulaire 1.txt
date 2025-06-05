@@ -1,0 +1,36 @@
+ac (atque)	et
+at	mais au contraire
+aut	ou, ou bien
+aut... aut...	soit...soit...
+autem	or; quant à; mais
+enim	car, en effet, le fait est que
+et	et
+etiam	même, aussi, encore/oui
+-que	et
+quoque	aussi
+saepe	souvent
+satis	assez
+sed	mais
+semper	toujours
+sic	ainsi, de telle façon/oui
+solum	seulement
+vel	ou, ou bien, ou si l'on veut (non exclusif)
+nam	en effet, car/par exemple
+nec (neque)	et ne...pas, ni
+neque... neque/nec... nec	ne... pas... et... ne... pas; ni... ni
+nihil	(ne)... en rien, nullement
+nihil	rien ne..., ne... rien
+non	ne... pas, non
+nondum	ne... pas encore
+numquam (nunquam)	ne... jamais
+nunc	maintenant
+tamen	cependant, pourtant
+tandem	enfin (après une longue attente)
+tum	alors; ensuite
+tunc	alors
+ita	ainsi, de telle façon/oui
+jam	déjà; désormais/maintenant; bientôt
+mox	bientôt/ensuite
+dein	ensuite
+deinde	ensuite
+denique	enfin (pour clore une énumération)
