@@ -46,17 +46,21 @@ Ce projet est supervisé par Isaac Pante dans le cadre d'un travail en SLI (Lett
 
 Plug-In Loquace codé par Loic Cattani : https://github.com/loiccattani/kaplay-loquace
 
+
 Musiques & Sons : À l'exception du son en fin de prologue, l'ensemble des musiques et compositeurs sont crédités ici:
 
 -DeusLower:
+
 Atmosphere mystic fantasy orchestral music: https://pixabay.com/fr/music/mystere-atmosphere-mystic-fantasy-orchestral-music-335263/
 
 -Grand_Project:
+
 Calm Waves (Soft Piano): https://pixabay.com/fr/music/classique-moderne-calm-waves-soft-piano-314968/
 
 Relaxing Piano: https://pixabay.com/fr/music/classique-moderne-relaxing-piano-310597/
 
 -music_for_video: 
+
 Elevator Music bossa nova background music ( Version 60s) : https://pixabay.com/music/elevator-music-elevator-music-bossa-nova-background-music-version-60s-10900/
 
 Forest Lullaby: https://pixabay.com/fr/music/groupe-acoustique-forest-lullaby-110624/
@@ -66,16 +70,19 @@ Inspiring Emotional Uplifting Piano: https://pixabay.com/fr/music/classique-mode
 Waiting Music: https://pixabay.com/music/bossa-nova-waiting-music-116216/
 
 -Good_B_Music:
+
 Endless Beauty (Main): https://pixabay.com/music/beautiful-plays-endless-beauty-main-11545/
 
 Melody of Nature (Main): https://pixabay.com/music/beautiful-plays-melody-of-nature-main-6672/
 
 -Clavier_Music:
+
 Sad Waltz (Piano): https://pixabay.com/fr/music/classique-moderne-sad-waltz-piano-216330/
 
 Soft Background Piano: https://pixabay.com/fr/music/classique-moderne-soft-background-piano-285589/
 
 -Sonothèque:
+
 Vagues et Sternes: https://lasonotheque.org/mer-vagues-moyennes-et-mouettes-s0267.html
 
 Chant d'un insecte 1: https://lasonotheque.org/chant-insecte-s1052.html
