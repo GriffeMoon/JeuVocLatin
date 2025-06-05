@@ -1,0 +1,13 @@
+{"frames":
+{"New Piskel0.png":
+{"frame":{"x":0,"y":0,"w":32,"h":32},
+"rotated":false,"trimmed":false,
+"spriteSourceSize":{"x":0,"y":0,"w":32,"h":32},
+"sourceSize":{"w":32,"h":32}},
+
+"New Piskel1.png":{"frame":{"x":0,"y":32,"w":32,"h":32},
+"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":32,"h":32},
+"sourceSize":{"w":32,"h":32}}},
+"meta":{"app":"https://github.com/piskelapp/piskel/",
+"version":"1.0","image":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAABACAYAAAB7jnWuAAAB40lEQVRoQ+2Y21EDMQxFWUqBJqASJr3wSS8ZKoEmQilsoo+bEUZPy5ksxPsZP3R0JctylrvE97b/WF93z0tiiTt16GauNWHCGaDXu8P3uj7eL6oj6+lbTp8Gtx0FQNgSSx56XnvjXO2UArQwEudMooYAuOHdy5PJsH//PI8DxFLEBNAMPyirvpg+EohE7gJwjzXD7cYtiBQS5NoPACQHSQYPCCBqWALBPlpeqAoQDLyvABAUQaQAEPuK91CDwsHVbIuWqMAI7zmApALC/QsA8R/hfauCFAZTgd7Ya8m4CYC2KN2eAm14rnYKAKKeApow4iR01QEyPqIW4E5IV0IAVFXg3rulWOrduAoEE60LkdtQzQEM8BsRSmCs2g9wZy/eEVndECkcAsAmF+8JM28Dr/OlcEXmhBSIdMIRY+me0HvVRMCkOekk7DWEemK9E4aFoBeyBJBJWg2wBNDrNV83AaYCf08BKrlW9lv/F6VLMV/ADUf6gSiIG4KIYeklhN88kBBAtBWTQEoA8L4CQFAWhKkAAfQahxrUoHYBVL3nAJYKqgIjvI+oMAGmAqYCmfegdj/gnagdxe3WAbxsKip43tPe274LuAoZJfj/A6XLaBP9QJvdV+uIRjxCSi3ZBJgK/FsFjoeQlEFauNseAAAAAElFTkSuQmCC",
+"format":"RGBA8888","size":{"w":32,"h":64}}}
