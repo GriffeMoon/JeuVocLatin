@@ -114,14 +114,14 @@ loadSprite("Nuage2", "image/Nuage2.png");
 loadSprite("Ciel","image/cieljour.png")
 loadSprite("Erable","image/Erable.png")
 loadSprite("Sol","image/Sol.png")
-loadSprite("Solpavé","image/Solpavé.png")
+loadSprite("Solpave","image/Solpave.png")
 loadSprite("Solfleur","image/Solfleur.png")
 loadSprite("Solclair","image/Solclair.png")
 loadSprite("Solanglegauche","image/Solanglegauche.png")
 loadSprite("Solangledroit","image/Solangledroit.png")
 loadSprite("Colonne","image/Colonnedoriquegris.png")
 loadSprite("Colonne_corinthienne", "image/Colonne_corinthienne.png")
-loadSprite("Colonne_étrange","image/colonne_étrange.png")
+loadSprite("Colonne_étrange","image/Cetrange.png")
 loadSprite("Multicolonnes","image/Multicolonnes.png")
 loadSprite("Escalier","image/Escalier.png")
 loadSprite("Etoiles", "image/Etoiles.png")
@@ -129,17 +129,17 @@ loadSprite("Lune","image/Moon.png")
 loadSprite("Phare", "image/Phareniveau.png")
 loadSprite("Mer", "image/Mer.png")
 loadSprite("Coquelicot", "image/Fleur.png")
-loadSprite("Nenuphar", "image/Nénuphar.png")
+loadSprite("Nenuphar", "image/Nenuphar.png")
 loadSprite("Feuilles", "image/Feuille.png")
 loadSprite("Luciole", "image/Luciole.png")
 loadSprite("Trireme", "image/Trireme.png")
 loadSprite("pont", "image/pont.png")
-loadSprite("Bibliothèque", "image/Bibliothèque.png")
+loadSprite("Bibliotheque", "image/Bibliotheque.png")
 loadSprite("bibliothécaire", "image/Vieilhomme.png")
 loadSprite("Cerisier", "image/Cerisier.png")
 loadSprite("Gaden", "image/MiniNew PiskelGaden.png");
 loadSprite("Alvares", "image/MiniNew PiskelAlvares.png");
-loadSprite("NuitIntro", "image/Nuitintro.png")
+loadSprite("NuitIntro", "image/NuitIntro.png")
 loadSprite("Alvaresdodo","image/Alvaresdodo.png")
 loadSprite("fees", "image/Luciole.png")
 loadSprite("fae", "image/Luciole.png")
@@ -3573,7 +3573,7 @@ forêt = play("Forêt", {
         scale:100,
         tiles: {
                    "0": () => [
-                sprite("Solpavé", { }),
+                sprite("Solpave", { }),
                 scale(10),//10
                 pos(0,650),
                 color(120,0,255),
@@ -3952,7 +3952,7 @@ temple = play("Temple", {
         scale:100,
         tiles: {
                    "0": () => [
-                sprite("Solpavé", { }),
+                sprite("Solpave", { }),
                 scale(10),//10
                 pos(0,650),
                 color(120,0,255),
@@ -4802,7 +4802,7 @@ temple = play("Temple", {
         scale:100,
         tiles: {
                    "0": () => [
-                sprite("Solpavé", { }),
+                sprite("Solpave", { }),
                 scale(10),//10
                 pos(0,650),
                 color(120,0,255),
@@ -5684,7 +5684,7 @@ temple = play("Temple", {
         scale:100,
         tiles: {
                    "0": () => [
-                sprite("Solpavé", { }),
+                sprite("Solpave", { }),
                 scale(10),//10
                 pos(0,650),
                 color(120,0,255),
@@ -7096,7 +7096,7 @@ const legrandarbreauloin2 = add([
                 body({ isStatic: true }),
             ],
             "1": () => [
-                sprite("Solpavé", { }),
+                sprite("Solpave", { }),
                 scale(5),
                 pos(-2550,0),
                 //color(0,0,0),
@@ -7238,13 +7238,13 @@ const legrandarbreauloin2 = add([
         },
     });
 add([
-    sprite("Bibliothèque"),
+    sprite("Bibliotheque"),
     area({  }),
     //body({ isStatic: true}),
     tile({ isObstacle: true}),
     pos(-1920,793),//15 scale 300 y
     scale(10),
-    "Bibliothèque",
+    "Bibliotheque",
     z(999),
 ])
 
@@ -7374,9 +7374,9 @@ let vitrailInteractReady = false;
         const c = col.target;
         //if (c.is("vitraux"))//{go("Boss")}//Pour changement de scene
         //if (c.is("colonne")) {go("Introduction")}
-        if (c.is("Bibliothèque")) {
+        if (c.is("Bibliotheque")) {
             if(music) music.stop();
-            go("Bibliothèque")}
+            go("Bibliotheque")}
 
  
         
@@ -7467,8 +7467,8 @@ player.onUpdate(() => {
 })
 //Le lieu pour sélectionner tous les niveaux
 //Manque encore adjectifs et conjugaison
-scene("Bibliothèque", () => {
-currentScene="Bibliothèque"
+scene("Bibliotheque", () => {
+currentScene="Bibliotheque"
 add([
     sprite("Fondbiblio"),
     //scale(10),
@@ -8435,7 +8435,7 @@ bouton.onHoverEnd(() => {
     });
 
     onKeyPress("escape", () => {
-        go("Bibliothèque");
+        go("Bibliotheque");
     });
 
     updateSelection();
@@ -8501,7 +8501,7 @@ bouton.onHoverEnd(() => {
     });
 
     onKeyPress("escape", () => {
-        go("Bibliothèque");
+        go("Bibliotheque");
     });
 
     updateSelection();
@@ -8551,7 +8551,7 @@ let currentBG = null;
     musique = play(choix.id, { loop: true });
     musique.paused = false;
 
-    debug.log(`Musique : ${choix.id} — Fond : ${choix.bg}`);
+   // debug.log(`Musique : ${choix.id} — Fond : ${choix.bg}`);
 }
 onKeyPress("space", () => {
     if (!musique) {
@@ -8562,7 +8562,7 @@ onKeyPress("space", () => {
         }
     } else {
         musique.paused = !musique.paused;
-        debug.log(musique.paused ? "Pause" : "Lecture");
+       // debug.log(musique.paused ? "Pause" : "Lecture");
 
         if (!musique.paused && !nuagesActive) {
             nuagesActive = true;
@@ -8911,7 +8911,7 @@ function spawnNuage() {
     saveManager.onDeclinaisonComplete(`Declinaison-${declinaison}`); // ajoutera 50 points si jamaisfait
     onDeclinaisonComplete(`Declinaison-${declinaison}`);
                     if (musique) musique.stop();
-                    go("Bibliothèque");
+                    go("Bibliotheque");
                 }
 
             } else {
@@ -8919,7 +8919,7 @@ function spawnNuage() {
                 updateErreurLabel();
                 if (gameState.erreurs >= 3) {
                      if (musique) musique.stop();
-                    go("Bibliothèque");
+                    go("Bibliotheque");
                 }
             }
         });
@@ -9357,14 +9357,14 @@ onKeyPress("w", () => {
             cleanUpScene();
             //go("FinBossGaden");
         if (entrainement) entrainement.stop();
-            go("Bibliothèque", { win: false });
+            go("Bibliotheque", { win: false });
 
         } else if (santeBoss <= 0) {
             resultatduel = +1;
             cleanUpScene();
             //go("RéussiBossGaden");
             if (entrainement) entrainement.stop();
-            go("Bibliothèque", { win: true });
+            go("Bibliotheque", { win: true });
 
         }
     }
