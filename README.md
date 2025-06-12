@@ -8,7 +8,7 @@ Pour ce qui est de la procédure d'installation, il suffit de télécharger tous
 <img width="765" alt="Capture d’écran 2025-06-04 à 09 04 21" src="https://github.com/user-attachments/assets/d0c0cf70-94b1-4e61-802f-8dedafcb4ec7" />
 
 # Scénario
-Comme indiqué précédemment, l'idée de départ était de créer un jeu s'inspirant d'une période et d'un lieu spécifiques, mais il aurait fallu consacrer du temps à la recherche de documentation archéologique et historique. De ce fait, l'histoire est davantage un prétexte spécieux qu'un éléement informatif.
+Comme indiqué précédemment, l'idée de départ était de créer un jeu s'inspirant d'une période et d'un lieu spécifiques, mais il aurait fallu consacrer du temps à la recherche de documentation archéologique et historique. De ce fait, l'histoire est davantage un prétexte spécieux qu'un élément informatif.
 
 Le bref début de scénario présenté dans le jeu n'est qu'un prétexte qui permet d'imaginer ce que cela pourrait être s'il y avait les 8 niveaux prévus. En comptant le prologue, cela fait 1 niveau sur 9. Le but du jeu est de l'utiliser indirectement comme un outil d'apprentissage, et le reste relève plutôt de la forme de bonus.
 
