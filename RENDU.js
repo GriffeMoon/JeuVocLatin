@@ -167,7 +167,7 @@ loadSprite("dummy", "image/Dummy.png")
     loadSound("musique2", "musique_rendu/relaxing-piano-310597.mp3");
     loadSound("musique3", "musique_rendu/forest-lullaby-110624.mp3");
     loadSound("musique4", "musique_rendu/elevator-music-bossa-nova-background-music-version-60s-10900.mp3");
-// Chargement des backgrounds (exemples à adapter avec tes fichiers)
+// Chargement des backgrounds
     loadSprite("bg1", "image/cielmatin.png");//Jour
     loadSprite("bg2", "image/cieljour.png");
     loadSprite("bg3", "image/cielcrepuscule.png");//Nuit
@@ -1611,7 +1611,7 @@ function afficherQuestionEtChoix(question, choices) {
     // Base de placement Y
     let yBase = 350;//350
 
-    //Son pour sélection case
+    //Son pour sélection case --> son ne démarre pas car le nom du dossier n'est plus le même
 loadMusic("select", "music/mixkit-bonus-earned-in-video-game-2058.wav")
 
 let clickLocked = false; // Cooldown flag
